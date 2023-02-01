@@ -12,5 +12,6 @@ cargo varchar(30) not null,
 foto longblob not null
 )engine=innodb;
 
+select * from funcionarios;
 
-
+ALTER TABLE funcionarios ADD data DATE AFTER endereco;
